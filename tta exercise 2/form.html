@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <title>Html Form</title>
+            <style>
+                h1{
+                    color:white;
+                    background-color:red;
+                    text-align: center;
+                    text-transform: uppercase;
+                    border-width: 2px;
+                    border-radius: 7px;
+                    padding-top: 12px;
+                    padding-right: 13px;
+                    padding-bottom: 12px;
+                    padding-left: 13px;
+                }
+                p{
+                    border:1px solid;
+                    border-radius: 7px;
+                    padding: 20px 22px;
+                    font-size: large;
+                }
+                .member-contact{
+                    border: 1px solid;
+                    border-radius: 7px;
+                    text-align: center;
+                    margin-left: 500px;
+                    margin-right: 500px;
+                    text-align: left;
+                    padding-left: 20px;
+                }
+                h2{
+                    color: red;
+                }
+                .member-info{
+                    border: 1px solid;
+                    border-radius: 3px;
+                    padding: 5px;
+                    margin: 5px;
+                }
+            </style>
+        </head>
+    </head>
+
+    <body>
+        <h1>Welcome to MY HTML Form Example</h1>
+        <p>This is asimple example to demonstrate how to use forms,divisions styling HTML.You'll see a form below where you can enetr your details. The form uses red,black,and white colors</p>
+        <div class="member-conact">
+            <h2>Contac Form</h2>
+            <div class="form">
+                <form action="submit" method="post">
+                    <label>Names:</label><br>
+                    <input class="member-info" type="text" placeholder="Enter your name"><br><br>
+
+                    <label>Email:</label><br>
+                    <input class="member-info" type="email" placeholder="Enter your email"><br><br>
+
+                    <label>Topic:</label><br>
+                    <select class="member-info">
+                        <option>CSS</option>
+                        <option>JAVA Script</option>
+                        <option>HTML</option>
+                    </select><br><br>
+
+                    <label>Message</label><br>
+                    <textarea placeholder="Write your message here..." rows="4" col="30"></textarea><br><br>
+
+                    <input type="submit" value="submit">
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
