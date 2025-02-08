@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+   /* flex-direction: row; */
+   /* flex-direction: colum; */
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content{
+    border: 1px solid blue;
+    width: 30% ;
+    margin: 5px 20px;
+    padding: 0px 5px;
+}
