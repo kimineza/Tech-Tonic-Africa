@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    background-color: gray;
+}
+.grid-item{
+    height: 100%;
+    background-color: gray;
+    border-radius: 5px;
+}
